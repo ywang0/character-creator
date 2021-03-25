@@ -1,8 +1,6 @@
 .characterEditor {
   padding: 128px 32px 64px;
-  width: 1024px;
   margin: 0 auto;
-  position: relative;
 }
 
 @media (max-width: 1000px) {
@@ -10,13 +8,11 @@
     width: 100vw;
     height: 150vh;
     padding: 12px 24px;
-    /* overflow: auto; */
   }
 }
 
 .maxWidthWrapper {
-  padding: 0;
-  margin: 0;
+  position: relative;
 }
 
 .header {
@@ -51,20 +47,20 @@
 }
 
 .characterWrapper {
-}
-
-.characterWrapper svg {
+  height: 90%;
   min-height: 500px;
+  width: 50%;
   position: fixed;
-  top: 128px;
-  right: -48px;
+  top: 10%;
+  left: 60%;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 1000px) {
-  .characterWrapper svg {
+  .characterWrapper {
     width: 100%;
     position: relative;
-    top: 48px;
+    top: 2%;
     left: 0;
     right: 0;
     margin-left: 0 auto;
