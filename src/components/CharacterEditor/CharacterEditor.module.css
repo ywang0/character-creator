@@ -1,13 +1,22 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  padding-right: 32px;
+  padding-left: 32px;
+
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .maxWidthWrapper {
+  padding: 0;
+  margin: 0;
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -26,5 +35,21 @@
 .characterWrapper {
 }
 
+.characterWrapper svg {
+  min-height: 500px;
+  position: fixed;
+  top: 128px;
+  right: 0;
+}
+
 .controlColumn {
+  width: 50%;
+}
+
+.perspectiveBar {
+  height: 40vh;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  bottom: 0;
 }
